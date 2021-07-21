@@ -25,7 +25,7 @@ jobs:
         config: ${{ secrets.KUBE_CONFIG_DATA }}
         command: set image --record deployment/my-app container=${{ github.repository }}:${{ github.sha }}
     - name: verify deployment
-      uses: steebchen/kubectl@v2.0.0
+      uses: steebchen/kubectl@v2.1.0
       with:
         config: ${{ secrets.KUBE_CONFIG_DATA }}
         version: v1.21.0 # specify kubectl binary version explicitly

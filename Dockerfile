@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL version="2.0.0"
+LABEL version="2.1.0"
 LABEL name="kubectl"
 LABEL repository="http://github.com/steebchen/kubectl"
 LABEL homepage="http://github.com/steebchen/kubectl"
